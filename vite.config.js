@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   define:
   {
-    "VITE_API": process.env.VITE_API 
+    "VITE_API": JSON.stringify(process.env.VITE_API) 
   },
   base: process.env.VITE_BASE_PATH || "/XChangeX"
 })
