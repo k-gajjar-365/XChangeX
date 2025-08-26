@@ -5,6 +5,14 @@ A fast, responsive currency converter built using **React**, **Vite**, and **Tai
 This project is a step forward after my Password Generator — my **second React app**, built to explore currency conversion with a clean UI and real-time data.
 
 
+---
+
+## 🚀 Live Demo
+
+👉 [View Live Site](https://x-change-x.vercel.app/)
+
+---
+
 
 
 ## 🧠 Hooks Used & Learned
