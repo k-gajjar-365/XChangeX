@@ -1,12 +1,33 @@
-# React + Vite
+# 💱 XChangeX - Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, responsive currency converter built using **React**, **Vite**, and **Tailwind CSS** — designed to deliver real-time exchange rates with a clean, intuitive interface.
 
-Currently, two official plugins are available:
+This project is a step forward after my Password Generator — my **second React app**, built to explore currency conversion with a clean UI and real-time data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🧠 Hooks Used & Learned
+
+This project helped me deepen my understanding of React hooks:
+
+- `useState` – for managing input and selected currency states  
+
+- `useEffect` – to fetch updated exchange rates when currencies change  
+
+- `useId` – for generating unique IDs for form accessibility  
+
+- `useCurrencyInfo.js` – a **custom hook** located in the `hooks/` folder  
+  → Fetches currency data from [fawazahmed0/exchange-api](https://github.com/fawazahmed0/exchange-api)
+
+---
+
+## 🔐 Environment Variables
+
+To keep the API configuration secure and flexible, I used **environment variables**:
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_API=https://api.example.com
+```
